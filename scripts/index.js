@@ -1,7 +1,7 @@
 const displayCourses = async () => {
   console.log("load");
 
-  await fetch("https://dg2003gh.github.io/cursos-site/cursos.json")
+  await fetch("./cursos.json")
     .then((res) => res.json())
     .then((courses) => {
       const container = document.querySelector("#courseContainer");
