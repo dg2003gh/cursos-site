@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="pt-BR" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Plataforma de Cursos</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <script src="scripts/index.js"></script>
+  </head>
+
+  <body class="bg-slate-900 text-white font-sans">
+    <div
+      id="bg3d"
+      class="fixed inset-0 -z-10 bg-center bg-cover blur-md transition-transform duration-300"
+      style="background-image: url(&quot;../imgs/bg.png&quot;)"
+    ></div>
+
+    <!-- Hero Section -->
+    <section
+      class="min-h-screen flex items-center justify-center flex-col text-center px-4"
+    >
+      <h1
+        class="text-4xl md:text-6xl font-bold mb-4 text-pink-400 drop-shadow-[0_0_10px_rgba(236,72,153,0.8)]"
+      >
+        Aprenda com quem faz!
+      </h1>
+      <p class="text-lg md:text-xl text-slate-300 max-w-xl mb-6">
+        Cursos rápidos e práticos nas áreas mais procuradas do mercado de
+        tecnologia.
+      </p>
+      <a
+        href="#cursos"
+        class="text-pink-400 border border-pink-400 px-6 py-3 rounded-lg shadow-[0_0_15px_rgba(236,72,153,0.8)] hover:shadow-[0_0_25px_rgba(236,72,153,1)] transition"
+      >
+        Ver cursos
+      </a>
+    </section>
+
+    <!-- Planos -->
+    <section
+      class="py-20 px-10 bg-gradient-to-br from-[#1a0022] via-[#300042] to-[#0e0016] text-white text-center"
+    >
+      <h2 class="text-3xl md:text-4xl font-bold mb-8">
+        Comece hoje mesmo sua jornada!
+      </h2>
+      <p class="text-slate-300 max-w-2xl mx-auto mb-12">
+        Invista em você com nossos cursos atualizados, criados por quem vive o
+        dia a dia do mercado.
+      </p>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- Plano Básico -->
+        <div
+          class="relative bg-[#2e1a48] rounded-xl p-6 shadow-lg hover:shadow-pink-500/40 transition transform hover:scale-105"
+        >
+          <div
+            class="absolute top-3 right-3 bg-pink-600 text-white text-xs font-bold uppercase px-3 py-1 rounded-full shadow-lg"
+          >
+            Em Breve
+          </div>
+
+          <h3 class="text-2xl font-semibold mb-4">Plano Básico</h3>
+          <p class="text-pink-400 text-lg font-bold mb-6">R$ 60 / mês</p>
+          <ul class="mb-6 text-left list-disc list-inside text-slate-300">
+            <li>Acesso a 2 cursos por mês</li>
+            <li>Material didático exclusivo</li>
+            <li>Suporte via fórum</li>
+          </ul>
+          <button
+            class="bg-pink-500 hover:bg-pink-600 px-6 py-3 rounded-md font-semibold shadow-md transition w-full"
+          >
+            Assinar
+          </button>
+        </div>
+
+        <!-- Plano Intermediário -->
+        <div
+          class="relative bg-[#411d67] rounded-xl p-6 shadow-lg hover:shadow-pink-500/50 transition transform hover:scale-105 border-2 border-pink-500"
+        >
+          <div
+            class="absolute top-3 right-3 bg-pink-600 text-white text-xs font-bold uppercase px-3 py-1 rounded-full shadow-lg"
+          >
+            Em Breve
+          </div>
+          <h3 class="text-2xl font-semibold mb-4">Plano Intermediário</h3>
+          <p class="text-pink-400 text-lg font-bold mb-6">R$ 120 / mês</p>
+          <ul class="mb-6 text-left list-disc list-inside text-slate-300">
+            <li>Acesso a 5 cursos por mês</li>
+            <li>Material + aulas bônus</li>
+            <li>Suporte prioritário</li>
+          </ul>
+          <button
+            class="bg-pink-600 hover:bg-pink-700 px-6 py-3 rounded-md font-semibold shadow-md transition w-full"
+          >
+            Assinar
+          </button>
+        </div>
+
+        <!-- Plano Avançado -->
+        <div
+          class="relative bg-[#582585] rounded-xl p-6 shadow-lg hover:shadow-pink-500/60 transition transform hover:scale-105"
+        >
+          <div
+            class="absolute top-3 right-3 bg-pink-600 text-white text-xs font-bold uppercase px-3 py-1 rounded-full shadow-lg"
+          >
+            Em Breve
+          </div>
+          <h3 class="text-2xl font-semibold mb-4">Plano Avançado</h3>
+          <p class="text-pink-400 text-lg font-bold mb-6">R$ 180 / mês</p>
+          <ul class="mb-6 text-left list-disc list-inside text-slate-300">
+            <li>Acesso ilimitado a todos os cursos</li>
+            <li>Material + aulas bônus + workshops</li>
+            <li>Suporte VIP 24/7</li>
+          </ul>
+          <button
+            class="bg-pink-500 hover:bg-pink-600 px-6 py-3 rounded-md font-semibold shadow-md transition w-full"
+          >
+            Assinar
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Seu Instrutor -->
+    <section
+      class="py-20 px-6 text-white max-w-4xl min-h-screen mx-auto flex flex-col md:flex-row items-center gap-8"
+    >
+      <img
+        src="./imgs/douglas_photo.png"
+        alt="Foto do Instrutor Douglas Guimarães"
+        class="w-52 h-52 rounded-full object-cover border-4 border-pink-500 shadow-lg"
+      />
+      <div>
+        <h2 class="text-4xl font-bold mb-4 text-pink-400">Seu Instrutor</h2>
+        <p class="text-lg text-slate-300 mb-4 leading-relaxed">
+          Olá! Eu sou <strong>Douglas Guimarães</strong>, apaixonado por
+          tecnologia e dedicado a transformar o aprendizado em uma experiência
+          envolvente e acessível. Com mais de 5 anos de experiência prática em
+          Linux, administração de sistemas, certificações AWS reconhecidas e
+          diversas linguagens como C, Python, Javascript, PHP, etc. Trago uma
+          bagagem sólida para guiar você na sua jornada.
+        </p>
+        <p class="text-lg text-slate-300 leading-relaxed">
+          Aqui, você não vai apenas assistir aulas, mas realmente entender o
+          funcionamento dos sistemas, ganhar confiança para atuar no mercado e
+          desenvolver habilidades que farão diferença na sua carreira. Seja você
+          iniciante ou já com alguma experiência, estou aqui para te apoiar em
+          cada passo, com conteúdo atualizado e dicas valiosas baseadas na minha
+          vivência diária.
+        </p>
+        <p class="text-lg text-slate-300 leading-relaxed">
+          Vamos juntos transformar seu potencial em resultados concretos? Conte
+          comigo para transformar desafios em oportunidades e aprender com quem
+          vive o dia a dia da tecnologia.
+        </p>
+      </div>
+    </section>
+    <!-- Lista de Cursos -->
+    <section
+      id="cursos"
+      class="py-16 px-6 bg-gradient-to-br from-[#1a0022] via-[#300042] to-[#0e0016]"
+    >
+      <h2 class="text-3xl font-bold text-center mb-12">Cursos Disponíveis</h2>
+      <div
+        id="courseContainer"
+        class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto"
+      >
+        <!-- Aqui vão os cards dos cursos (dinâmicos ou estáticos) -->
+      </div>
+    </section>
+    <!-- Rodapé -->
+    <footer class="text-center py-6 text-slate-400 text-sm">
+      © 2025 Finituz Cursos. Todos os direitos reservados.
+    </footer>
+  </body>
+</html>
