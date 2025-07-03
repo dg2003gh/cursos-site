@@ -1,7 +1,7 @@
 const displayCourses = async () => {
   console.log("load");
 
-  await fetch("../cursos.json")
+  await fetch("/cursos.json")
     .then((res) => res.json())
     .then((courses) => {
       const container = document.querySelector("#courseContainer");
