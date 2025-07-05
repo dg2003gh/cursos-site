@@ -5,5 +5,12 @@
     "buttonText": "Comprar agora",
     "icon": "devicon-linux-plain",
     "isCommingSoon": true
+  },
+  {
+    "title": "Introdução à programação com Lua",
+    "description": "Aprenda tudo sobre Lua. Uma linguagem simples, poderosa e Brasileira!",
+    "buttonText": "Comprar agora",
+    "icon": "devicon-lua-plain",
+    "isCommingSoon": true
   }
 ]
